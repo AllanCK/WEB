@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Metadados da página -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Garagem de carros do Silva</title>
+    <!-- Link para o arquivo CSS externo -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="stylesheet.css"
+      media="screen"
+    />
+  </head>
+
+  <body>
+    <!-- Cabeçalho da página -->
+    <header id="cabeçalho">
+      <h1>Garagem de carros do Silva</h1>
+      <!-- Imagem do carro -->
+      <img
+        class="imgCarro"
+        src="assets/chevrolet.png"
+        alt="Imagem de um carro"
+      />
+      <!-- Navegação -->
+      <nav>
+        <ul class="listaNav">
+          <!-- Links do menu de navegação -->
+          <a class="liListaNav" href="#cabeçalho"><li>Inicio</li></a>
+          <a class="liListaNav" href="#principal"><li>Sobre</li></a>
+          <a class="liListaNav" href="#vantagens"
+            ><li>Vantagens e desvantagens</li></a
+          >
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Conteúdo principal -->
+    <main id="principal">
+      <!-- Seção sobre o carro HB20 -->
+      <h2>HB20</h2>
+      <img src="assets/hb20.png" alt="Foto do carro revisado HB20" />
+      <p>
+        O Hyundai HB20 2023 recebeu um facelift significativo, melhorando tanto
+        o design quanto a tecnologia. O modelo agora oferece uma aparência mais
+        moderna e itens de segurança aprimorados, como frenagem automática com
+        detecção de pedestres, alerta de saída de faixa com correção ativa, além
+        do centralizador de faixa, aproximando-o de recursos semi-autônomos.
+      </p>
+
+      <!-- Lista de prós -->
+      <div id="vantagens" class="listaProCon">
+        <h3>Prós</h3>
+        <ul>
+          <li>Desempenho</li>
+          <li>Conectividade</li>
+          <li>Segurança</li>
+          <li>Assistente de direção</li>
+          <li>Design</li>
+        </ul>
+      </div>
+
+      <!-- Lista de contras -->
+      <div class="listaProCon">
+        <h3>Contras</h3>
+        <ul>
+          <li>Espaço interno</li>
+          <li>Isolamento acústico</li>
+          <li>Acerto de suspensão</li>
+          <li>Preço</li>
+          <li>Ausência de alguns itens</li>
+        </ul>
+      </div>
+
+      <p>
+        No interior, a conectividade foi reforçada com o sistema Bluelink, que
+        permite controlar funções do carro via smartphone. Seu desempenho
+        continua satisfatório com motor 1.0 turbo, mas o espaço interno é
+        limitado, especialmente para passageiros altos.
+      </p>
+      <a
+        href="https://canaltech.com.br/carros/analise/review-hyundai-hb20-2023/"
+        >fonte: Canaltech</a
+      >
+      <!-- Formulário de cadastro -->
+      <form action="/submit" method="get">
+        <label for="nome">Digite o seu nome:</label>
+        <input id="nome" type="text" />
+        <label for="email">Digite o seu email:</label>
+        <input id="email" type="email" />
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+
+    <!-- Rodapé da página -->
+    <footer>
+      <p>Direitos reservados pelos alunos da UNEMAT</p>
+      <a href="#">Políticas de privacidade</a>
+    </footer>
+  </body>
+</html>

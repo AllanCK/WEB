@@ -1,0 +1,89 @@
+/* Reset de padding e margin para todos os elementos */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Estilização do cabeçalho (header) */
+header {
+  width: 100vw; /* Largura total da tela */
+  background-color: black; /* Fundo preto */
+  display: flex;
+  flex-direction: column; /* Organiza o conteúdo verticalmente */
+  justify-content: center; /* Centraliza o conteúdo verticalmente */
+  align-items: center; /* Centraliza o conteúdo horizontalmente */
+  color: lightgray; /* Texto em cinza claro */
+}
+
+/* Estilização para a classe das imagens no carro (imgCarro) */
+.imgCarro {
+  height: 150px; /* Define a altura da imagem */
+}
+
+/* Estilização da barra de navegação (listaNav) */
+.listaNav {
+  width: 100vw; /* Largura total da tela */
+  display: flex; /* Layout flexível para distribuir os itens */
+  justify-content: space-evenly; /* Distribui os itens igualmente */
+  align-items: center; /* Centraliza verticalmente os itens */
+  border-style: solid; /* Borda sólida */
+  border-width: 2px 0; /* Largura da borda superior e inferior */
+  color: lightgray; /* Texto em cinza claro */
+  text-decoration: none; /* Remove sublinhado dos links */
+}
+
+/* Estilização para os itens individuais da barra de navegação */
+.liListaNav {
+  color: lightgray; /* Texto em cinza claro */
+  text-decoration: none; /* Remove sublinhado */
+}
+
+/* Estilização do conteúdo principal (main) */
+main {
+  width: 100vw; /* Largura total da tela */
+  background-color: gray; /* Fundo cinza */
+  display: flex;
+  flex-direction: column; /* Organiza o conteúdo em coluna */
+  align-items: center; /* Centraliza o conteúdo */
+}
+
+/* Estilização dos títulos (h2) */
+h2 {
+  justify-self: start; /* Alinha o título à esquerda */
+  font-size: xx-large; /* Tamanho grande do texto */
+  margin: 5px 0; /* Margem superior e inferior */
+}
+
+/* Estilização dos parágrafos (p) */
+p {
+  justify-self: flex-start; /* Alinha o parágrafo à esquerda */
+  margin: 15px 0; /* Margem superior e inferior */
+  width: 60vw; /* Largura de 60% da tela */
+}
+
+/* Estilização de listas especiais (listaProCon) */
+.listaProCon {
+  border-style: solid; /* Borda sólida */
+  border-width: 2px 0; /* Borda superior e inferior */
+  border-color: lightgray; /* Cor da borda em cinza claro */
+  margin-top: 20px; /* Espaçamento superior */
+  list-style-type: none; /* Remove os marcadores da lista */
+}
+
+/* Estilização dos formulários (form) */
+form {
+  display: flex;
+  flex-direction: column; /* Organiza os itens do formulário em coluna */
+  margin: 10px 0; /* Margem superior e inferior */
+}
+
+/* Estilização do rodapé (footer) */
+footer {
+  width: 100vw; /* Largura total da tela */
+  display: flex;
+  background-color: aqua; /* Fundo azul claro */
+  justify-content: space-evenly; /* Distribui os itens igualmente */
+  border-style: solid; /* Borda sólida */
+  border-width: 2px 0; /* Borda superior e inferior */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+}
